@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		
+		<script language="JavaScript">
+	function showtime()	
+	{
+		var now_time=new Date();
+		var hours=now_time.getHours();
+		var minutes=now_time.getMinutes();
+		var seconds=now_time.getSeconds();
+		var timer=""+((hours>12) ? hours-12:hours);
+		timer +=((minutes <10) ? ":0" : ":")+minutes;
+		timer +=((seconds<10) ? ":0" : ":")+seconds;
+		timer +=" "+((hours>12) ? "pm" : "am");
+		document.clock.show.value=timer;
+		setTimeout("showtime()",1000);
+	}
+	</script>
+		
+	</head>
+<link rel="stylesheet" href="style/wenzhang2.css" />
+	<body onload="showtime()">
+		<div class="top">
+                  <center> 
+                    <ul>
+                    <li class="zise"><a href="Main.html"><h4>易班首页</h4></a></li>
+                    <li><a href="#">公共平台</a></li>
+                    <li><a href="#">优课YOOC</a></li>
+                       <li><a href="work.html">专业工作</a>
+                    </ul>
+                    </center>      
+          </div>
+    <img src="image/wenzhangimage/LOGO.png" />
+    
+    <div id="bacground">
+    	<div id="artical-1">
+    		<div id="h1">
+    			<h1>给计算机相关专业的几点建议</h1>
+    		</div>
+    	
+    	<div id="h2">
+    		<h3>昨天的你，成就今天的样子；今天的你，决定明天的样子</h3>
+    	</div>
+    	
+    	<div id="aritical-1">
+    		<p>大学时，总希望有这么一个人告诉自己该怎么做，如今，我想做那个人，可以告诉曾经像我一样迷茫的人，几点建议。</p>
+    		<p>程序员，计算机专业的对口工作之一，其他的测试、算法、安全，我并不了解，所以只说程序员。</p>
+    	</div>
+    	
+    	<div id="h3">
+    		<h2>一、你需要的基础知识</h2>
+    	</div>
+    	
+    	<div id="aritical-2">
+    		<p>语言有JAVA、kotlin、swift、PHP、Node.js、Python等可以选择，但是<b>HTML CSS JavaScript!!划重点）</b>这些是每一行都需要的，web和各平台的结合越来越密切了。
+数据结构和设计模式（算法，非常重要，非常重要，非常重要，找工作笔试时候必考，尤其是大公司，如果你不会的话，扑街）、英语（英文文档很重要，一般技术问题是GOOGLE的，没有百度）、数学（逻辑思维）、线性代数和概率论（比较深的知识需要用到）、计算机网络（不知道的话，不好意思说计算机毕业的，曾经我忘记了IP配置之类的，被问是不是计算机毕业的(lll￢ω￢)），数据库（虽然有很多封装框架，但是SQL语句和一些概念术语要会的），所以这些科目一定要好好学习，切记切记。对了，如果会UML图更好点呀，我们公司经常要求画类图，心累~
+
+</p>
+			<p id="h4"><b>怎么自学？？？</b></p>
+			<p>web去W3CSCHOOL、菜鸟教程之类的，或者买技术书籍看。如果有实验室，就进去把，好好思考一下学习什么语言，精通上面语言的其中之一，再重复一遍，WEB是至少要会基础的。至于其他的深入的架构等知识，就将基础知识学会后看把。</p>
+    		<p>学习期间，记得多敲代码，模仿一些项目，到时候面试可以让面试官看，也可以将一些东西放在git上，这都能给自己加分。</p>
+    	</div>
+    	
+    	<div id="h5">
+    		<h2>程序员职业的优缺点</h2>
+    	</div>
+    	
+    	<div id="aritical-3">
+    		<p><section>1.优点：这一行，众所周知，工资高，具体的要看你的能力了，大牛的话，三四万甚至更多也是有可能的。这对于，我等房奴车奴来说，确实很重要。</section></p>
+    		<p><section>2.缺点：不会锻炼情商口才之类的能力，另外对身体不太好，这一行，很多公司九个小时以上（所以，找工作，最好问清楚上班时间，不同公司时间不一样的，有朝九晚六，也有朝九晚七等等，更恐怖的还有996，早九晚九一周六天~），久坐不动，缺乏锻炼、赶工期熬夜加班、再加上整天面对电脑辐射，所以女孩子的话一定要注意保养，锻炼身体，不然长期之后毛孔粗大、痘痘啥的都出来了，腰围很可能疯狂长QAQ。另外的话，就是眼睛的问题了，不过很少有工作不看电脑的，所以还是要靠自己保养了。建议可以买一个久坐提醒功能的或者设定个电脑提示，多喝水，多动动，伸伸胳膊，伸伸腿。
+			<p><section>3.不知道算啥：学的东西很多，很有挑战性，但也很有成就感。要不断的学习，计算机的知识更新的很快，所以要在学习新知识的同时，不断更新旧知识。有人说，程序员是吃青春饭的，毕竟人过了35岁，没有那么大的精力了，如果35岁还没有升入管理层或者成为高级架构师，也挺尴尬了。这里，提醒一下，管理层需要和上下级沟通调节，所以这时候调节矛盾、部门沟通和工期安排就看你了。
+
+</section></p>
+    	</div>
+    	
+    	<div id="h6">
+    		<h2>后记</h2>   	
+    	</div>
+    	
+    	<div id="aritical-4">
+    		<p>如果，你选择程序员，就从现在起，好好加油吧！但是，如果你不想干这一行，那么请一定一定要想好自己毕业后做什么，并开始努力，大学的时间看似很长，其实很短，以后生活水平就看努力的程度了。工作占了人生的一大部分，如果能够在工作中取得快乐，是人生一大幸事。</p>
+ 			<p>这些建议，希望能对读到的人有所帮助。不管以后选择了哪条道路，大学都不应该被辜负。想想以后拿什么去面试，拿什么说服boss，拿什么来养活自己。你有底气面对毕业后的人生么？</p>
+    	</div>
+    	
+    	<div id="h7">
+    		<h3></h3>
+    	</div>
+    	
+    	<a href="">
+    	
+		</a>	
+    	</div>
+    	
+    	<div id="time">
+    		<form name="clock" onsubmit="0">
+    			<input type="text" name="show" size="40" style="background-color: white;border-width: 3;color: gray;">
+    		</form>
+    	</div>
+    	
+    	<div id="shousuo">
+    		<div id="word-5">
+    			<p>搜索</p>
+    		</div>
+    		
+    		<div id="table">
+    			<table width="200px" height="100px">
+    			<tr>
+    				<td><input type="word" value="" placeholder="输入关键字" style="color: #DCDCDC;"></td>
+    				<td><input type="button" value="找找看" style="width: 50px; height: 21px;text-align: center;padding-right: 50px;"></td>
+    			</tr>
+    			<tr>
+    				<td><input type="word" value="" placeholder="输入关键字" style="color: #DCDCDC;"></td>
+    				<td><input type="button" value="谷歌搜索" style="width:50px ;height: 21px; text-align: center;padding-right: 65px;"></td>
+    			</tr>
+    		</table>
+    		</div>
+    	</div>
+    	
+    	
+    </div>
+	</body>
+</html>

@@ -1,0 +1,187 @@
+#img-1{
+    z-index: 1;
+    position: absolute;
+    width: 130px;
+    height: 80px;
+    right:73%;
+    top:40px
+}
+#img-3{
+    z-index: 2;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    height: 600px;
+}
+#word{
+    z-index: 4;
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    right:59%;
+    font-family: "黑体";
+    font-size: 20px;
+    color: #A9A9A9;
+}
+#background{
+    z-index: 5;
+    position: absolute;
+    right:35%;
+    top:165px;
+    background-color: #F0F8FF;
+    width: 450px;
+    height: 445px;
+}
+#img-4{
+    z-index: 6;
+    position: absolute;
+    left: 37.7%;
+    margin-top:295px;
+
+}
+#img-5{
+    z-index: 7;
+    position: absolute;
+    left: 37.8%;
+    margin-top:353px;
+}
+#register-password{
+    width: 120px;
+    z-index: 8;
+    position: absolute;
+    right:38%;
+    margin-top:430px;
+}
+#background-2{
+    z-index: 9;
+    position: absolute;
+    width: 347px;
+    height: 42px;
+    background-color:blue;
+    right:38%;
+    margin-top: 480px;
+    font-family: "黑体" "宋体";
+    font-size: 25px;
+}
+#logon{
+    margin-top: 4px;
+    color: white;
+}
+#table{
+    width: 100px;
+    z-index: 10;
+    position: absolute;right: 40%;
+
+
+    font-size: 15px;
+    font-family: "黑体";
+}
+#register{
+    z-index: 11;
+    position: absolute;
+    right:35%;
+    margin-top:562px;
+    font-size: 15px;
+    font-family: "微软雅黑";
+
+
+
+}
+#register-Questionnaire{
+    z-index: 12;
+    position: absolute;
+    right:17%;
+    margin-top: 80px;
+}
+#user-register{
+    z-index: 13;
+    position: absolute;
+    width: 100px;
+    margin-left: 1520px;
+    margin-top: 165px;
+    font-family: "宋体" "黑体";
+    font-size: 24px;
+    color: #DC143C;
+}
+#daohanglan{
+    z-index: 14;
+    position: absolute;
+    text-align: center;
+    background-color:aliceblue;
+    width: 100%;
+    height: 30px;
+    margin-top: 700px;
+    color: darkgray;
+    font-family:"黑体";
+}
+#table-userredister{
+    z-index: 15;
+    position: absolute;
+    right:35%;
+    margin-top: 166px;
+    text-align: center;
+    width: 450px;
+}
+#hr{
+    z-index:16 ;
+    position: absolute;
+    width: 450px;
+    height: 2px;
+    background-color:darkgray;
+    right:35%;
+    margin-top: 220px;
+}
+#hr-2{
+    z-index: 17;
+    position: absolute;
+    width: 450px;
+    height: 1px;
+    right:35%;
+    margin-top: 550px;
+    background-color:darkgrey;
+}
+#page-bottom-word{
+    z-index: 18;
+    position: absolute;
+    font-family: "黑体";
+    font-size: 15px;
+    margin-top: 720px;
+    right:45%;
+    color: dimgray;
+    text-aligh:center;
+}
+#register-password a:link,a:visited{
+    text-decoration: none;
+}
+#register-password a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+#table a:link,a:visited{
+    text-decoration: none;
+}
+#table a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+#register a:link,a:visited{
+    text-decoration: none;
+}
+#register a:hover{
+    text-decoration: none;
+    color: #DC143C;
+}
+#register-Questionnaire a:link,a:visited{
+    text-decoration: none;
+}
+#register-Questionnaire a:hover{
+    color: #DC143C;
+    text-decoration: none;
+}
+#daohanglan a:link,a:visited{
+    text-decoration: none;
+}
+#daohanglan a:hover{
+    color: #DC143C;
+    text-decoration: none;
+}

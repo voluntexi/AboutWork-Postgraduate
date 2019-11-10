@@ -1,0 +1,315 @@
+<html>
+	<meta charset="utf-8" />
+   <head>
+   	<title>易班-专业模块</title>
+       <style type="text/css">
+        .top{
+    /* 设置宽度高度背景颜色 */
+    height: 120px; /*高度改为自动高度*/
+    width:100%;
+    margin-left: 0;
+    background:white;
+    position: fixed; /*固定在顶部*/
+    top: 0px;/*离顶部的距离为0*/
+    margin-bottom: 1px;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 4px solid blueviolet;
+    z-index: 1;
+}.top .zise {background-color: blueviolet;height: 87px}
+.top .zise h4{color: #FFFFFF;margin-top: 0px;}
+.top ul{
+   
+    width: auto;
+    list-style-type: none;
+    white-space:nowrap;
+    overflow: hidden;
+    margin-left: 500px;
+  
+    padding: 0;
+
+
+}
+.top ul li ul{
+    /* 设置二级菜单 */
+    margin-left: -0.2px;
+    background:rgb(189, 181, 181);
+    position: relative;
+    display: none; /* 默认隐藏二级菜单的内容 */
+
+}
+.top ul li ul li{
+    /* 二级菜单li内容的显示 */
+     height: auto;width: 140px;
+    float:none;
+    text-align: center;
+}
+.top ul li:hover ul{
+    /* 鼠标选中二级菜单内容时 */
+    display: block;
+}
+.top li {
+    float:left; /* 使li内容横向浮动，即横向排列  */
+    margin-right:10%;  /* 两个li之间的距离*/
+    position: relative;
+   
+    overflow: hidden;
+}
+.top li a{
+   /* 设置链接内容显示的格式*/
+    display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color:black;
+    text-align: center;
+    padding: 30px;
+    overflow: hidden;
+    text-decoration: none; /* 去除下划线 */
+    
+}
+.top li a:hover{
+   
+    background-color: blueviolet;
+    color: white;
+}
+#logo{position: absolute;top: -10px;left:120px;width: 250px;position: fixed; /*固定在顶部*/z-index: 1;}
+#then{
+	padding-top: 175px;
+	width: 100%;
+	height: 700px;
+	background-image: url(image/workimage/yiabn8.jpg);
+}
+.then2{
+	margin-top: 0px;
+	width: 100%;
+	height: 350px;
+	background-image: url(image/workimage/yiban6.jpg);
+}
+#then3{
+	width: 100%;
+	height: 590px;
+}
+.then4{
+	margin-top: 0px;
+	width: 100%;
+	height: 350px;
+	background-image: url(image/workimage/yiban7.jpg);
+}
+.nom{
+	font-size: 70px;
+	color: gray;
+}
+.tit{
+	text-align: center;
+}
+.nom2{
+	font-size: 70px;
+	color: gold;
+}
+.tit2{
+	text-align: center;
+	color: gold;
+}
+#yueli{
+	width: 66%;
+	height: 450px;
+	border: 4px azure;
+	float: left;
+}
+#yueli p{
+	padding-left: 75px;
+	line-height: 70px;
+}
+#yueli a{
+	text-decoration: none;
+	color: black;
+}
+#yueli a:hover{
+	color: blue;
+}
+#dagang{
+	width: 34%;
+	background-repeat: no-repeat;
+	height: 450px;
+	float: left;
+}
+#dagang p{
+	padding-left: 75px;
+	line-height: 70px;
+}
+#dagang a{
+	text-decoration: none;
+	color: black;
+}
+#dagang a:hover{
+	color: blue;
+}
+.then2 a{
+	display: block;
+	text-decoration: none;
+	color: #FF8C00;
+}
+.then2 a:hover{
+	color: aqua;
+}
+#timu{
+	width: 15%;
+	height: 100px;
+	color: white;
+	float: left;
+	margin-left: 7%;
+	text-align: center;
+}
+#timu2{
+	width: 15%;
+	height: 100px;
+	color: white;
+	float: left;
+	margin-left: 7%;
+	text-align: center;
+}
+#timu3{
+	width: 15%;
+	height: 100px;
+	color: white;
+	float: left;
+	margin-left: 7%;
+	text-align: center;
+}
+#timu4{
+	width: 15%;
+	height: 100px;
+	color: white;
+	float: left;
+	margin-left: 7%;
+	text-align: center;
+}
+#zhengche{
+	width: 100%;
+	height: 495px;
+	border: 4px royalblue;
+	background-color: #F0FFFF;
+}
+.xiaozhengc{
+	width: 25%;
+	height: 450px;
+	margin-left: 6%;
+	float: left;
+}
+.jinyan{
+	width: 40%;
+	height: 50px;
+	border: 2px  solid lightgreen;
+	float: left;
+	margin-left: 6%;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+.jinyan a{
+	text-decoration: none;
+	color: lightgreen;
+	display: block;
+}
+.jinyan a:hover{
+	color: white;
+	background-color: lightgreen;
+}
+#footer{
+	
+	width: 100%;height: 80px;
+    color: gray;
+
+	font-style: inherit;
+	text-align: center;
+}
+       </style>
+    </head>
+        <body>
+            <div class="top">
+                  <center>
+                    <ul>
+                  
+                    <li class="zise"><a href="Main.html"><h4>易班首页</h4></a></li>
+                    <li><a href="#">公共平台</a></li>
+                    <li><a href="#">优课YOOC</a></li>
+                    <li><a href="work.html">我的专业</a>
+                    	<ul>
+                            <li><a href="work.html">工作介绍</a></li>
+                            <li><a href="Examination.html">考研资料</a></li>
+                       </ul>
+                    </li>
+                    </ul>
+                     </center>  
+            </div>
+            <img id="logo" src="image/workimage/LOGO.png" />  
+            <div id="then">
+			<center><img src="image/workimage/yiban2.png" /></center>
+			<h1 class="tit"><strong class="nom">01</strong>报考指南</h1>
+				<div id="yueli">
+					<center><h3>考研月历</h3></center>
+					<p><a href="#"><strong>8-9月</strong>研究生招生简章，专业目录和考试大纲</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><strong>10月</strong>全国统一网上报名</a></p>
+					<p><a href="#"><strong>11月</strong>研究生现场确认</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><strong>12月</strong>打印准考证，全国硕士研究生入学统一考试</a></p>
+					<p><a href="#"><strong>2-3月</strong>考研成绩公布，复试分数线公布</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;<a href="#"><strong>3-4月</strong>考研复试，考研调剂</a></p>
+					<p><a href="#"><strong>5-6月</strong>考研拟录取，推免生申请夏令营活动</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#"><strong>6-7月</strong>录取通知书，入学准备</a></p>
+				</div>
+				<div id="dagang">
+					<center><h3>考研大纲</h3></center>
+					<p><a href="#">2019考研计算机学科专业基础综合考试大纲（原文）</a></p>
+					<p><a href="#">2018、2019考研计算机大纲变化对照表</a></p>
+				</div>
+			</div>
+			<center><img src="image/workimage/yiban3.png" /></center>
+		<div class="then2">
+			<h1 class="tit2"><strong class="nom2">02</strong>历年真题</h1>
+			<div id="timu"><h2><a href="#">2018年政治真题</a></h2></div>
+			<div id="timu2"><h2><a href="#">2018年英语真题</a></h2></div>
+			<div id="timu3"><h2><a href="#">2018年数学真题</a></h2></div>
+			<div id="timu4"><h2><a href="#">2018年计算机真题</a></h2></div>
+		</div>
+		<div id="then3">
+			<h1 class="tit"><strong class="nom">03</strong>政策解析</h1>
+			<div id="zhengche"><h3>考研加分政策，报考前快来看看你有没有加分的可能吧！</h3>
+				<div class="xiaozhengc"><h4>哪些考生可以享受政策加分</h4>
+					<p>1.参加大学生志愿服务西部计划服务期满，考核合格的考生</p>
+					<p>2.参加三支一扶计划服务期满，考核合格的考生</p>
+					<p>3.赴外汉语教师志愿者等项目服务期满，考核合格的考生</p>
+					<p>4.参加农村义务教育阶段学校教师特设岗位计划服务期满，考核合格的考生</p>
+					<p>5.普通高等学院应届毕业生应征入伍服义务兵役退役后的考生（3年内参加全国硕士研究生招生考试，
+						初试成绩加10分，同等条件下优先录取）</p>
+					<p>6.选聘高校毕业生到村任职服务期满、考核称职以上的考生（3年内参加全国硕士研究生招生考试，初
+						试成绩加10分，同等条件下优先录取，其中报考人文社科类专业研究生的，初试总分加15分）</p>
+				</div>
+				<div class="xiaozhengc"><h4>考研照顾的专业</h4>
+					<p>矿业工程[0819]     地质资源与地质工程[0818]  </P><p>冶金工程[0806]   力学[0801]</p> 
+					<P>动力工程及工程热物理[0807]   兵器科学与技术[0826]</P>水利工程[0815]    
+					<p>航空宇航科学与技术[0825]     船舶与海洋工程[0824] </p>   农业工程[0828]</p>
+				</div>
+				<div class="xiaozhengc"><h4>少数民族政策优惠</h4>
+					<p>1.报考地处二、三区招生单位，且毕业后在国务院公布的民主区域自治地方就业的少数民族普通高校应届本科
+					毕业生考生</p>
+					<p>2.工作单位在民族区域地方自治范围，为原单位定向或委托培养的少数民族在职人员考生</p>
+				</div>
+			</div>
+		</div>
+		<div class="then4">
+			<h1 class="tit2"><strong class="nom2">04</strong>经验分享</h1>
+			<div class="jinyan"><a href="#">考研须知</a></div>
+			<div class="jinyan"><a href="#">学习篇</a></div>
+			<div class="jinyan"><a href="#">战术篇</a></div>
+			<div class="jinyan"><a href="#">战略篇</a></div>
+			<div class="jinyan"><a href="#">心态篇</a></div>
+		</div>
+		<div id="footer">
+			<p>copyright&copy;2019.</p>
+			<p>By:1024团队制作</p>
+		</div>
+		</body>
+</html>
